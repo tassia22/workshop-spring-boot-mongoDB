@@ -9,7 +9,7 @@ import com.tassiapereira.workshopmongo.domain.User;
 @Repository
 public interface PostRepository extends MongoRepository<Post, String>{
 
-	User findOne(String id);
+	Post findOne(String id);
 
 	
 	
